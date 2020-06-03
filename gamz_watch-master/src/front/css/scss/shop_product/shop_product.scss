@@ -1,0 +1,66 @@
+@import '../mixin';
+
+article {
+  &#item_detail {
+    margin-top: 2%;
+    .content_width {
+      width: 95%;
+      margin: auto;
+      text-align: center;
+      .image_box {
+        float: left;
+        width: 50%;
+        @include mq-max() {
+          width: 90%;
+          margin: 1% auto;
+          float: none;
+        }
+        .image_container {
+          width: 80%;
+          margin-left: 20%;
+          @include mq-max() {
+            margin: 1% auto;
+          }
+          img {
+            width: 100%;
+            border-radius: 5%;
+          }
+        }
+      }
+      .detail_box {
+        width: 50%;
+        float: left;
+        text-align: center;
+        @include mq-max() {
+          width: 100%;
+          margin-bottom: 2%;
+        }
+        .main_info {
+          padding: 5%;
+          border-radius: 10px;
+          margin: 0 auto 3% auto;
+          @include mq-max() {
+            padding: 2%;
+            margin: 0;
+          }
+          .product_name {
+            font-size: 120%;
+            font-weight: bold;
+            margin-bottom: 5%;
+            @include mq-max() {
+              margin: 1%;
+            }
+          }
+        }
+      }
+    }
+    .cartin-button-box {
+      // background-color: pink;
+      padding: 2% 15%;
+    }
+    .back-button-box {
+      // background-color: pink;
+      padding: 2% 20%;
+    }
+  }
+}

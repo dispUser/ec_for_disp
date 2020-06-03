@@ -1,0 +1,54 @@
+@import 'scss/mixin';
+
+.search-box {
+  width: 60%;
+  margin: 1% auto;
+  padding: 2%;
+  color: $mainColor;
+  border-radius: 10px;
+  @include mq-max() {
+    width: 95%;
+  }
+  .search-box__condition_box {
+    .search-box__group_box {
+      padding: 2%;
+      border-radius: 5px;
+      background-color: rgb(255, 219, 225);
+      margin-bottom: 2%;
+    }
+    .search-box__group-item {
+      margin-bottom: 2%;
+      label {
+        font-weight: bold;
+      }
+      input,
+      select {
+        padding: 1%;
+        border: none;
+        border-radius: 5px;
+        width: 60%;
+        &:active,
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+.search-box__button {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 2%;
+  background-image: linear-gradient(45deg, #6795fd 0%, #67ceff 100%);
+  border-radius: 14px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  &:active {
+    background-image: linear-gradient(45deg, #1d60ff 0%, #19b4fc 100%);
+  }
+  &:focus {
+    outline: 0;
+  }
+}

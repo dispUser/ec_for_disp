@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  width: 100%;
+  border: 2px solid $mainColor;
+  border-radius: 10px;
+  color: $mainColor;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button-primary {
+  color: orange;
+  border-color: orange;
+}

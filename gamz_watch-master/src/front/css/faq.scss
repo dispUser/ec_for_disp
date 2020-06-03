@@ -1,0 +1,56 @@
+@import 'scss/mixin';
+
+article {
+  &#purchase_flow {
+    .content_width {
+      width: 90%;
+      margin: 0 auto;
+      color: $mainColor;
+      h2 {
+        text-align: center;
+        font-size: 150%;
+      }
+      p {
+        text-align: center;
+      }
+      .you_color {
+        background-color: rgb(255, 224, 230);
+      }
+      .us_color {
+        background-color: rgb(173, 255, 255);
+      }
+      .subject_box {
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+        color: $mainColor;
+        font-size: 130%;
+        @include mq-max() {
+          font-size: 100%;
+        }
+      }
+      .step_box {
+        width: 70%;
+        margin: 0 auto 1% auto;
+        border-radius: 5px;
+        text-align: center;
+        .fas,
+        .far {
+          font-size: 550%;
+          margin-bottom: 1%;
+          @include mq-max() {
+            font-size: 300%;
+          }
+        }
+        p {
+          @include mq-max() {
+            font-size: 80%;
+          }
+        }
+      }
+    }
+  }
+}

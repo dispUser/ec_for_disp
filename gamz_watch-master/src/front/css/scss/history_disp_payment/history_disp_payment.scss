@@ -1,0 +1,31 @@
+@import "../mixin";
+
+article{
+    &#history_disp_payment{
+        .content_width{
+            color: $mainColor;
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            h2{
+                font-size: 120%;
+                margin: 2%;
+            }
+            .main_button{
+                color: orange;
+                border-color: orange;
+            }
+            .fix_button{
+                margin: 1%;
+                @include mq-max(){
+                    padding: 3% 5%;
+                    width: 100%;
+                }
+            }
+            .warning{
+                font-weight: bold;
+                color: red;
+            }
+        }
+    }
+}

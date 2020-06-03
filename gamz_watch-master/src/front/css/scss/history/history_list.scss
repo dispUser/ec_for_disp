@@ -1,0 +1,66 @@
+@import "../mixin";
+
+article{
+    &#history_list{
+        .content_width{
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            color: $mainColor;
+            @include mq-max(){
+                width: 95%;
+                font-size: 80%;
+            }
+            h2{
+                margin: 1%;
+                font-size: 120%;
+            }
+            .header{
+                .td{
+                    float: left;
+                    width: 16%;
+                    background-color: $lightMainColor;
+                    color: white;
+                    padding: 1%;
+                    @include mq-max(){
+                        height: 10vh;
+                        font-size: 75%;
+                    }
+                    &.last{
+                        width: 20%;
+                    }
+                }
+            }
+            .tr{
+                &:nth-child(even){
+                    background-color: rgb(231, 231, 231);
+                }
+                a{
+                    background-color: pink;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    color: $mainColor;
+                    .td{
+                        width: 16%;
+                        height: 100%;
+                        float: left;
+                        padding: 1%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                        &.last{
+                            width: 20%;
+                        }
+                        .subtotal{
+                            color: $priceColor;
+                            @include mq-max(){
+                                font-size: 110%;
+                            }   
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

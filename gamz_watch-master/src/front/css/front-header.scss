@@ -1,0 +1,64 @@
+// _mixinをimport。_と.scssは不要
+@import 'scss/mixin';
+
+.front-header {
+  background-color: $mainColor;
+  color: white;
+}
+.front-header__title {
+  display: inline-block;
+  line-height: 125px;
+  margin-left: 1%;
+  font-family: 'Pacifico', cursive;
+  @include mq-max() {
+    display: block;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+.front-header__link {
+  font-size: 250%;
+  color: white;
+  text-decoration: none;
+  @include mq-max() {
+    font-size: 200%;
+  }
+}
+
+.front-header__image-box {
+  float: right;
+  max-width: 400px;
+  max-height: 200px;
+  margin-right: 2%;
+  @include mq-max() {
+    float: none;
+    margin: 0 auto;
+    max-width: 280px;
+  }
+}
+.front-header__img {
+  width: 100%;
+}
+
+.front-header__nav {
+  background-color: #fff;
+}
+.front-header__nav-list {
+  list-style: none;
+}
+.front-header__nav-list-item {
+  float: left;
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-right: 1px solid $mainColor;
+  &:last-of-type {
+    border-right: none;
+  }
+}
+.front-header__nav-list-item-link {
+  color: $mainColor;
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+@import "../mixin";
+
+article{
+    &#login{
+        .content_width{
+            color: $mainColor;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            h2{
+                color: $mainColor;
+                margin: 1% auto;
+                font-size: 120%;
+            }
+            .title{
+                font-weight: bold;
+            }
+            .login_button{
+                margin-top: 2%;
+                padding: 1% 3%;
+                background-color: white;
+                color: $mainColor;
+                font-weight: bold;
+                font-size: 100%;
+                border-radius: 10px;
+                width: 200px;
+                border: 2px solid $mainColor;
+                cursor: pointer;
+                @include mq-max(){
+                    width: 90%;
+                    margin: 5% auto;
+                    padding: 3% 5%;
+                }
+            }
+            input{
+                @include mq-max(){
+                    border-radius: 15px;
+                    padding: 3% 5%;
+                }
+            }
+        }
+    }
+}

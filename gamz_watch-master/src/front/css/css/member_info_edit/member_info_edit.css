@@ -1,0 +1,28 @@
+article#member_info_edit .content_width {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  color: #3b4675; }
+  @media screen and (max-width: 767px) {
+    article#member_info_edit .content_width {
+      width: 100%; } }
+  article#member_info_edit .content_width h2 {
+    margin: 2%;
+    font-size: 120%; }
+  article#member_info_edit .content_width input {
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #3b4675; }
+  article#member_info_edit .content_width .box {
+    margin: 1%; }
+  article#member_info_edit .content_width .fix_button {
+    margin: 1%;
+    border: 2px solid #3b4675; }
+    @media screen and (max-width: 767px) {
+      article#member_info_edit .content_width .fix_button {
+        width: 85%;
+        padding: 3%; } }
+  article#member_info_edit .content_width .submit_button {
+    font-size: 110%;
+    border: 2px solid orange;
+    color: orange; }

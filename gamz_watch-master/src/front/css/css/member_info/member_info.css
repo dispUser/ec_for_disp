@@ -1,0 +1,19 @@
+article#member_info .content_width {
+  width: 85%;
+  margin: 0 auto;
+  color: #3b4675;
+  text-align: center; }
+  article#member_info .content_width h2 {
+    margin: 2%;
+    font-size: 120%; }
+  article#member_info .content_width .box {
+    margin-bottom: 1%; }
+  article#member_info .content_width .fix_button {
+    display: block;
+    padding: 1%;
+    margin: 1% auto;
+    text-decoration: none; }
+    @media screen and (max-width: 767px) {
+      article#member_info .content_width .fix_button {
+        width: 85%;
+        padding: 3%; } }

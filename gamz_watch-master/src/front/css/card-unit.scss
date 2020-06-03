@@ -1,0 +1,9 @@
+.card-unit {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.card-unit__item--big {
+  grid-column: 1 / 3;
+}

@@ -1,0 +1,27 @@
+@import "../mixin";
+
+article{
+    &#shop_kantan_done{
+        text-align: center;
+        color: $mainColor;
+        h2{
+            margin: 2%;
+            font-size: 120%;
+        }
+        a{
+            text-decoration: none;
+            color: $mainColor;
+            display: block;
+        }
+        .fix_button{
+            display: block;
+            margin: 1% auto;
+            width: 30%;
+            @include mq-max(){
+                width: 80%;
+                padding: 3% 5%;
+                margin: 2% auto;
+            }
+        }
+    }
+}

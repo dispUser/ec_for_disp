@@ -1,0 +1,71 @@
+.search-box {
+  margin-bottom: 2%; }
+  .search-box .row {
+    margin-bottom: 2%; }
+  .search-box label {
+    font-weight: bold; }
+  .search-box input,
+  .search-box select {
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    width: 60%; }
+    .search-box input:active, .search-box input:focus,
+    .search-box select:active,
+    .search-box select:focus {
+      outline: none; }
+  .search-box .group_box {
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #ffdbe1;
+    margin-bottom: 2%; }
+
+.search_box {
+  width: 60%;
+  margin: 1% auto;
+  background-color: #fcd1d8;
+  padding: 2%;
+  color: #3b4675;
+  border-radius: 10px; }
+  @media screen and (max-width: 767px) {
+    .search_box {
+      width: 95%; } }
+  .search_box .condition_box {
+    margin-bottom: 2%; }
+    .search_box .condition_box .row {
+      margin-bottom: 2%; }
+    .search_box .condition_box label {
+      font-weight: bold; }
+    .search_box .condition_box input,
+    .search_box .condition_box select {
+      padding: 1%;
+      border: none;
+      border-radius: 5px;
+      width: 60%; }
+      .search_box .condition_box input:active, .search_box .condition_box input:focus,
+      .search_box .condition_box select:active,
+      .search_box .condition_box select:focus {
+        outline: none; }
+    .search_box .condition_box .group_box {
+      padding: 1%;
+      border-radius: 5px;
+      background-color: #ffdbe1;
+      margin-bottom: 2%; }
+  .search_box .search_button {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    background-image: -webkit-linear-gradient(45deg, #6795fd 0%, #67ceff 100%);
+    background-image: -o-linear-gradient(45deg, #6795fd 0%, #67ceff 100%);
+    background-image: linear-gradient(45deg, #6795fd 0%, #67ceff 100%);
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    border: none; }
+    .search_box .search_button:active {
+      background-image: -webkit-linear-gradient(45deg, #1d60ff 0%, #19b4fc 100%);
+      background-image: -o-linear-gradient(45deg, #1d60ff 0%, #19b4fc 100%);
+      background-image: linear-gradient(45deg, #1d60ff 0%, #19b4fc 100%); }
+    .search_box .search_button:focus {
+      outline: 0; }

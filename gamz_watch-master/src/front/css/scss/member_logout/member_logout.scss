@@ -1,0 +1,23 @@
+@import "../mixin";
+
+article{
+    &#logout{
+        .content_width{
+            width: 85%;
+            margin: 2% auto;
+            text-align: center;
+            div{
+                margin: 3%;
+                a{
+                    display: block;
+                    margin: 3% auto;
+                    text-decoration: none;
+                    @include mq-max(){
+                        padding: 3% 5%;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

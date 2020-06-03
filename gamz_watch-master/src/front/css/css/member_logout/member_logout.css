@@ -1,0 +1,14 @@
+article#logout .content_width {
+  width: 85%;
+  margin: 2% auto;
+  text-align: center; }
+  article#logout .content_width div {
+    margin: 3%; }
+    article#logout .content_width div a {
+      display: block;
+      margin: 3% auto;
+      text-decoration: none; }
+      @media screen and (max-width: 767px) {
+        article#logout .content_width div a {
+          padding: 3% 5%;
+          width: 80%; } }

@@ -1,0 +1,18 @@
+article#kantan_check .content_width {
+  text-align: center;
+  color: #3b4675; }
+  article#kantan_check .content_width .box {
+    margin-bottom: 1%; }
+    article#kantan_check .content_width .box .title {
+      font-weight: bold; }
+  article#kantan_check .content_width .first {
+    margin-top: 1%; }
+  article#kantan_check .content_width .check_button {
+    display: block;
+    padding: 1%;
+    margin: 0 auto;
+    margin-bottom: 1%; }
+    @media screen and (max-width: 767px) {
+      article#kantan_check .content_width .check_button {
+        padding: 3% 4%;
+        width: 85%; } }

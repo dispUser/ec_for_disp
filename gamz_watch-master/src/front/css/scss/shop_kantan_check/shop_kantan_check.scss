@@ -1,0 +1,29 @@
+@import "../mixin";
+
+article{
+    &#kantan_check{
+        .content_width{
+            text-align: center;
+            color: $mainColor;
+            .box{
+                margin-bottom: 1%;
+                .title{
+                    font-weight: bold;
+                }
+            }
+            .first{
+                margin-top: 1%;
+            }
+            .check_button{
+                display: block;
+                padding: 1%;
+                margin: 0 auto;
+                margin-bottom: 1%;
+                @include mq-max(){
+                    padding: 3% 4%;
+                    width: 85%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+// _mixinをimport。_と.scssは不要
+@import 'scss/mixin';
+
+.jumbotron {
+  height: 80vh;
+  text-align: center;
+  background-image: url('../img/common/watch_two_hands.jpg');
+  background-size: cover;
+  color: white;
+  background-position: center;
+  .jumbotron__text {
+    font-size: 150%;
+    line-height: 80vh;
+    text-shadow: 1px 1px 1px #555;
+    color: white;
+    @include mq-max() {
+      font-size: 125%;
+    }
+  }
+}

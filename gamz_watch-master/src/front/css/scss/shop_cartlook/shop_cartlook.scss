@@ -1,0 +1,134 @@
+@import '../mixin';
+
+article {
+  &#cart {
+    .content_width {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      color: $mainColor;
+      box-sizing: border-box;
+      @include mq-max() {
+        width: 95%;
+      }
+      h2 {
+        font-size: 150%;
+        margin: 2%;
+      }
+      .fix_button {
+        display: block;
+        margin: 2% auto;
+      }
+      .subtotal {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1%;
+        background-color: rgb(242, 242, 242);
+        border: 2px solid rgb(222, 222, 222);
+        padding: 2%;
+        @include mq-max() {
+          width: 90%;
+          padding: 5%;
+        }
+      }
+      .price {
+        color: $priceColor;
+      }
+      .total_price {
+        font-weight: bold;
+      }
+      .shipping_fee {
+        font-weight: bold;
+        font-size: 85%;
+      }
+      .item_list_box {
+        .item_box {
+          .image_box {
+            img {
+              border-radius: 15px;
+              max-width: 35%;
+              @include mq-max() {
+                max-width: 55%;
+              }
+            }
+          }
+          .name_box {
+            font-size: 120%;
+          }
+          .detail_box {
+            padding: 2% 0;
+            .float_box {
+              width: 25%;
+              float: left;
+              input {
+                width: 70%;
+                font-size: 105%;
+                border: 1px solid $mainColor;
+                border-radius: 15px;
+                text-align: center;
+                @include mq-max() {
+                  padding: 3%;
+                  border: 2px solid $mainColor;
+                }
+              }
+              @include mq-max() {
+                width: 100%;
+              }
+            }
+            .delete_box {
+              width: 20%;
+              @include mq-max() {
+                width: 100%;
+                margin: 3% auto;
+              }
+              div {
+                background-color: rgb(194, 194, 194);
+                border-radius: 15px;
+                width: 50%;
+                margin: 0 auto;
+                a {
+                  color: white;
+                  display: block;
+                  margin: 0 auto;
+                  @include mq-max() {
+                    width: 50%;
+                    padding: 4% 2%;
+                  }
+                }
+              }
+            }
+          }
+          .line {
+            height: 1%;
+            width: 100%;
+            border-bottom: 2px solid $mainColor;
+            margin-bottom: 2%;
+          }
+        }
+      }
+      .cart_button {
+        padding: 1%;
+        margin-bottom: 1%;
+        border-radius: 10px;
+        @include mq-max() {
+          width: 100%;
+          padding: 3% 5%;
+        }
+      }
+      .checkout_button {
+        display: block;
+        text-decoration: none;
+        border: 3px solid orange;
+        border-radius: 15px;
+        color: orange;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 1%;
+        @include mq-max() {
+          width: 100%;
+          padding: 3% 5%;
+        }
+      }
+    }
+  }
+}

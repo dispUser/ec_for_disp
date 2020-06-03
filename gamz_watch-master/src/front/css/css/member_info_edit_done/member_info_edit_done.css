@@ -1,0 +1,15 @@
+article#member_info_edit_done {
+  text-align: center;
+  color: #3b4675; }
+  article#member_info_edit_done h2 {
+    margin: 2%; }
+  article#member_info_edit_done div {
+    margin: 3%; }
+    article#member_info_edit_done div a {
+      display: block;
+      margin: 3% auto;
+      text-decoration: none; }
+      @media screen and (max-width: 767px) {
+        article#member_info_edit_done div a {
+          padding: 3% 5%;
+          width: 80%; } }

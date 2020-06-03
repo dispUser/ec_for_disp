@@ -1,0 +1,23 @@
+article#member_info_check .content_width {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  color: #3b4675; }
+  article#member_info_check .content_width h2 {
+    margin: 2%;
+    font-size: 120%; }
+  article#member_info_check .content_width .box {
+    margin: 1%;
+    text-align: center; }
+    article#member_info_check .content_width .box a {
+      text-decoration: none; }
+  article#member_info_check .content_width .fix_button {
+    display: block;
+    margin: 2% auto; }
+    @media screen and (max-width: 767px) {
+      article#member_info_check .content_width .fix_button {
+        width: 85%;
+        padding: 3%; } }
+  article#member_info_check .content_width .regist_button {
+    color: orange;
+    border: 2px solid orange; }

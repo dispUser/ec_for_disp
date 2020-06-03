@@ -1,0 +1,17 @@
+article#history_disp_cancel .content_width {
+  color: #3b4675;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
+  article#history_disp_cancel .content_width h2 {
+    font-size: 120%;
+    margin: 2%; }
+  article#history_disp_cancel .content_width .main_button {
+    color: orange;
+    border-color: orange; }
+  article#history_disp_cancel .content_width .fix_button {
+    margin: 1%; }
+    @media screen and (max-width: 767px) {
+      article#history_disp_cancel .content_width .fix_button {
+        padding: 3% 5%;
+        width: 100%; } }

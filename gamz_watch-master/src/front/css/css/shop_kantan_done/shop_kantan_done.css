@@ -1,0 +1,19 @@
+article#shop_kantan_done {
+  text-align: center;
+  color: #3b4675; }
+  article#shop_kantan_done h2 {
+    margin: 2%;
+    font-size: 120%; }
+  article#shop_kantan_done a {
+    text-decoration: none;
+    color: #3b4675;
+    display: block; }
+  article#shop_kantan_done .fix_button {
+    display: block;
+    margin: 1% auto;
+    width: 30%; }
+    @media screen and (max-width: 767px) {
+      article#shop_kantan_done .fix_button {
+        width: 80%;
+        padding: 3% 5%;
+        margin: 2% auto; } }

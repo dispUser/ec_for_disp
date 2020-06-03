@@ -1,0 +1,21 @@
+.item-card {
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #3b4675; }
+
+.item-card__image-box {
+  height: 300px;
+  overflow: hidden; }
+
+.item-card__img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.item-card__link {
+  text-decoration: none; }
+
+.item-card__text {
+  color: pink;
+  background-color: pink;
+  margin: 1% 0; }

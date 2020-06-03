@@ -1,0 +1,15 @@
+@import 'item-card.scss';
+
+.heading--center {
+  text-align: center;
+  height: 100px;
+  font-size: 150%;
+  line-height: 100px;
+  color: $mainColor;
+}
+
+.heading--center--min-height {
+  @extend .heading--center;
+  line-height: 1;
+  height: auto;
+}

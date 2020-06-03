@@ -1,0 +1,30 @@
+@import "../mixin";
+
+article{
+    &#my_page{
+        .content_width{
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            height: 45vh;
+            .menu_box{
+                margin: 5%;
+            }
+            a{
+                padding: 1% 3%;
+                border: 2px solid $mainColor;
+                display: block;
+                margin: 2% auto;
+                width: 60%;
+                border-radius: 15px;
+                font-size: 130%;
+                color: $mainColor;
+                text-decoration: none;
+                @include mq-max(){
+                    padding: 3% 4%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

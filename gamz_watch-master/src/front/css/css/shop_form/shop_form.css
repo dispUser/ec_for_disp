@@ -1,0 +1,23 @@
+article#shop_form .content_width {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #3b4675; }
+  article#shop_form .content_width h2 {
+    margin: 2% 0; }
+  @media screen and (max-width: 767px) {
+    article#shop_form .content_width {
+      width: 95%; } }
+  @media screen and (max-width: 767px) {
+    article#shop_form .content_width input {
+      padding: 2%;
+      border-radius: 10px; } }
+  article#shop_form .content_width .button_fix {
+    display: block;
+    margin: 1% auto;
+    padding: 1%; }
+    @media screen and (max-width: 767px) {
+      article#shop_form .content_width .button_fix {
+        width: 90%;
+        padding: 3% 0;
+        margin: 2% auto; } }

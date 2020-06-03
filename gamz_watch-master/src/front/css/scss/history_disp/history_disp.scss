@@ -1,0 +1,140 @@
+@import "../mixin";
+
+article{
+    &#order_detail{
+        .content_width{
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            color: $mainColor;
+            @include mq-max(){
+                width: 95%;
+            }
+            h2{
+                padding: 2%;
+                font-size: 120%;
+            }
+            .price {
+                color: $priceColor;
+            }
+            .subtotal{
+                font-weight: bold;
+            }
+            .row{
+                .header{
+                    width: 50%;
+                    background-color: $lightMainColor;
+                    color: #fff;
+                    padding: 1%;
+                    .td{
+                        width: 33%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                    }
+                }
+                .body{
+                    width: 50%;
+                    margin-bottom: 2%;
+                    padding: 1%;
+                    .td{
+                        width: 33%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                    }
+                }
+                .td{
+                    float: left;
+                    width: 10%;
+                    min-height: 10px;
+                }
+                .status_header{
+                    text-align: center;
+                    width: 85%;
+                    padding: 1%;
+                    background-color: $lightMainColor;
+                    color: #fff;
+                    @include mq-max(){
+                        width: 100%;
+                    }
+                    .td{
+                        width: 16%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                    }
+                }
+                .status_body{
+                    text-align: center;
+                    width: 85%;
+                    padding: 1%;
+                    margin-bottom: 2%;
+                    @include mq-max(){
+                        width: 100%;
+                    }
+                    .td{
+                        width: 16%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                    }
+                }
+            }
+            .fix_button{
+                text-decoration: none;
+                @include mq-max(){
+                    display: block;
+                    margin: 2% auto;
+                    padding: 2%;
+                    width: 90%;
+                }
+            }
+            .main_button{
+                border-color: orange;
+                color: orange;
+            }
+            .item_list_box{
+                text-align: center;
+                .header{
+                    background-color: $lightMainColor;
+                    padding: 0 1%;
+                    color: white;
+                    .td{
+                        float: left;
+                        width: 16%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                        &.last{
+                            width: 20%;
+                        }
+                    }
+                }
+                .tr{
+                    &:nth-child(odd){
+                        background-color: rgb(231, 231, 231);
+                    }
+                    .td{
+                        float: left;
+                        width: 16%;
+                        padding: 1%;
+                        @include mq-max(){
+                            font-size: 75%;
+                        }
+                        &.last{
+                            width: 20%;
+                        }
+                        .image_container{
+                            width: 100%;
+                            img{
+                                border-radius: 15px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

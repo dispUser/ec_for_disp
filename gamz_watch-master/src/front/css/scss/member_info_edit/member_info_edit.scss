@@ -1,0 +1,40 @@
+@import "../mixin";
+
+article{
+    &#member_info_edit{
+        .content_width{
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            color: $mainColor;
+            @include mq-max(){
+                width: 100%;
+            }
+            h2{
+                margin: 2%;
+                font-size: 120%;
+            }
+            input{
+                padding: 1%;
+                border-radius: 10px;
+                border: 1px solid $mainColor;
+            }
+            .box{
+                margin: 1%;
+            }
+            .fix_button{
+                margin: 1%;
+                border: 2px solid $mainColor;
+                @include mq-max(){
+                    width: 85%;
+                    padding: 3%;
+                }
+            }
+            .submit_button{
+                font-size: 110%;
+                border: 2px solid orange;
+                color: orange;
+            }
+        }
+    }
+}

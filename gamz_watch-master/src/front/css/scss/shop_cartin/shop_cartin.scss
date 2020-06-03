@@ -1,0 +1,18 @@
+@import "../mixin";
+
+article{
+    &#cartin{
+        text-align: center;
+        color: $mainColor;
+        h3{
+            text-align: center;
+            font-size: 120%;
+            margin: 2%;
+        }
+        .fix_button{
+            display: block;
+            margin: 1% auto;
+            text-decoration: none;
+        }
+    }
+}

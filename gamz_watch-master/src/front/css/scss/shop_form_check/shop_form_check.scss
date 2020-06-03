@@ -1,0 +1,29 @@
+@import "../mixin";
+
+article{
+    &#shop_form_check{
+        .content_width{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            color: $mainColor;
+            .box{
+                margin-bottom: 2%;
+                &.first{
+                    margin-top: 2%;
+                }
+                .title{
+                    font-weight: bold;
+                }
+            }
+            .fix_button{
+                margin: 1%;
+                @include mq-max(){
+                    margin: 2% 0;
+                    width: 85%;
+                    padding: 3% 5%;
+                }
+            }
+        }
+    }
+}

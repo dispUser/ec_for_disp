@@ -1,0 +1,11 @@
+article#cartin {
+  text-align: center;
+  color: #3b4675; }
+  article#cartin h3 {
+    text-align: center;
+    font-size: 120%;
+    margin: 2%; }
+  article#cartin .fix_button {
+    display: block;
+    margin: 1% auto;
+    text-decoration: none; }

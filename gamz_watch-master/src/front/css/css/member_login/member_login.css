@@ -1,0 +1,31 @@
+article#login .content_width {
+  color: #3b4675;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+  article#login .content_width h2 {
+    color: #3b4675;
+    margin: 1% auto;
+    font-size: 120%; }
+  article#login .content_width .title {
+    font-weight: bold; }
+  article#login .content_width .login_button {
+    margin-top: 2%;
+    padding: 1% 3%;
+    background-color: white;
+    color: #3b4675;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 10px;
+    width: 200px;
+    border: 2px solid #3b4675;
+    cursor: pointer; }
+    @media screen and (max-width: 767px) {
+      article#login .content_width .login_button {
+        width: 90%;
+        margin: 5% auto;
+        padding: 3% 5%; } }
+  @media screen and (max-width: 767px) {
+    article#login .content_width input {
+      border-radius: 15px;
+      padding: 3% 5%; } }
